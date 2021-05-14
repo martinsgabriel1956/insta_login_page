@@ -1,0 +1,23 @@
+@media (max-width: 1024px) {
+  main {
+    width: 90%;
+  }
+}
+
+@media (max-width: 650px) {
+  main {
+    width: 90%;
+  }
+  .insta-phone {
+    display: none;
+  }
+
+  .group {
+    background: transparent;
+    border: none;
+  }
+
+  .insta-login {
+    width: 100%;
+  }
+}
