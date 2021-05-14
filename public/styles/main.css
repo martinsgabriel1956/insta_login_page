@@ -33,3 +33,44 @@ main {
 .insta-phone img {
   height: 50rem;
 }
+
+.insta-login {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  width: 50%;
+  min-height: 34rem;
+}
+
+.group {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  background: #fff;
+  width: 100%;
+  padding: 1.3rem;
+  border: 1px solid #F5F5F5;
+}
+
+.group:nth-child(1) {
+  min-height: 19rem;
+}
+
+.insta-logo {
+  height: 3rem;
+}
+
+.profile img {
+  width: 125px; 
+  height: 125px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+
+  overflow: hidden;
+
+}
